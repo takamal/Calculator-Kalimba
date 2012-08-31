@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
-        <integer-array name="notes">
+
+    <integer-array name="notes">
         <item >@raw/c5</item>
         <item >@raw/d5</item>
         <item >@raw/e5</item>
@@ -9,7 +9,9 @@
         <item >@raw/a5</item>
         <item >@raw/c6</item>
         <item >@raw/d6</item>
-
+        <item >@raw/e6</item>
+        <item >@raw/g6</item>
+        <item >@raw/a6</item>
     </integer-array><integer-array name="Keypads">
         <item >@+id/Keypad1</item>
         <item >@+id/Keypad2</item>
@@ -18,7 +20,10 @@
         <item >@+id/Keypad5</item>
         <item >@+id/Keypad6</item>
         <item >@+id/Keypad7</item>
-
+        <item >@+id/Keypad8</item>
+        <item >@+id/Keypad9</item>
+        <item >@+id/Keypad10</item>
     </integer-array>
+    
     
 </resources>

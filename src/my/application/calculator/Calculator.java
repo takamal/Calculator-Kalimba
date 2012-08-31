@@ -30,12 +30,12 @@ import android.content.SharedPreferences;
 
 
 @SuppressWarnings("deprecation")
-public class Calculator extends Activity implements OnClickListener {
+public class Calculator extends Activity {
 	
 	public  MediaPlayer[] mp;
 	public String strTemp="";
 	public String strResult="0";
-	public Integer operator=0;
+	public Integer operator = 0;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -52,11 +52,17 @@ public class Calculator extends Activity implements OnClickListener {
             	   mp[i]= MediaPlayer.create(this, notes.getResourceId(i, -1));
                }
         		
-               for (int i = 0; i < Keypads.length(); i++) {
-            	   findViewById(Keypads.getResourceId(i, -1)).setOnClickListener(this);
-               }
+//               for (int i = 0; i < Keypads.length(); i++) {
+//            	   findViewById(Keypads.getResourceId(i, -1)).setOnClickListener(this);
+//               }
 	}
-    
+    public void clickSound(String strInKey){
+    	Integer i = Integer.parseInt(strInKey);
+    	
+    	mp[i-1].seekTo(0); 	//シークトウって曲のはじめを表すこと
+		mp[i-1].start();
+		
+    }
     
     public void numKeyOnClick(View v){
     			TextView sp=(TextView)this.findViewById(R.id.SubPanel);	//テキストビューのインスタンス生成
@@ -105,7 +111,11 @@ public class Calculator extends Activity implements OnClickListener {
     		//-----------------------------------
 						strTemp=strTemp+strInKey;
 		}
-		showNumber(strTemp);
+    	if(strInKey.equals(".")){									//切り離された文字列が"."ドットだけの場合、スルー
+    	}else{
+    		this.clickSound(strInKey);
+    	}
+    	this.showNumber(strTemp);    	
     }
     
     public void functionKeyOnClick(View v){
@@ -276,17 +286,17 @@ public class Calculator extends Activity implements OnClickListener {
 
   
   
-	@Override
-	public void onClick(View v) {
-		TypedArray Keypads = getResources().obtainTypedArray(R.array.Keypads);
-		
-		for (int i = 0; i < Keypads.length(); i++) {
-	
-			if (Keypads.getResourceId(i, -1) == v.getId()) {
-				mp[i].seekTo(0); 	//シークトウってなんなの？
-				mp[i].start();
-				break;
-			}
-		}
-	}
+//	@Override
+//	public void onClick(View v) {
+//		TypedArray Keypads = getResources().obtainTypedArray(R.array.Keypads);
+//		
+//		for (int i = 0; i < Keypads.length(); i++) {
+//	
+//			if (Keypads.getResourceId(i, -1) == v.getId()) {
+//				mp[i].seekTo(0); 	//シークトウってなんなの？
+//				mp[i].start();
+//				break;
+//			}
+//		}
+//	}
 }
