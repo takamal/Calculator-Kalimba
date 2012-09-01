@@ -12,6 +12,12 @@
         <item >@raw/e6</item>
         <item >@raw/g6</item>
         <item >@raw/a6</item>
+		<item >@raw/c7</item>
+        <item >@raw/d7</item>
+        <item >@raw/e7</item>
+        <item >@raw/g7</item>
+        <item >@raw/a7</item>
+        <item >@raw/c8</item>
     </integer-array><integer-array name="Keypads">
         <item >@+id/Keypad1</item>
         <item >@+id/Keypad2</item>
@@ -23,6 +29,12 @@
         <item >@+id/Keypad8</item>
         <item >@+id/Keypad9</item>
         <item >@+id/Keypad10</item>
+        <item >@+id/Keypad11</item>
+        <item >@+id/Keypad12</item>
+        <item >@+id/Keypad13</item>
+        <item >@+id/Keypad14</item>
+        <item >@+id/Keypad15</item>
+        <item >@+id/Keypad16</item>
     </integer-array>
     
     

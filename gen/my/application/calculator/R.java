@@ -59,14 +59,24 @@ public final class R {
     public static final class raw {
         public static final int a5=0x7f040000;
         public static final int a6=0x7f040001;
-        public static final int c5=0x7f040002;
-        public static final int c6=0x7f040003;
-        public static final int d5=0x7f040004;
-        public static final int d6=0x7f040005;
-        public static final int e5=0x7f040006;
-        public static final int e6=0x7f040007;
-        public static final int g5=0x7f040008;
-        public static final int g6=0x7f040009;
+        public static final int a7=0x7f040002;
+        public static final int a8=0x7f040003;
+        public static final int c5=0x7f040004;
+        public static final int c6=0x7f040005;
+        public static final int c7=0x7f040006;
+        public static final int c8=0x7f040007;
+        public static final int d5=0x7f040008;
+        public static final int d6=0x7f040009;
+        public static final int d7=0x7f04000a;
+        public static final int d8=0x7f04000b;
+        public static final int e5=0x7f04000c;
+        public static final int e6=0x7f04000d;
+        public static final int e7=0x7f04000e;
+        public static final int e8=0x7f04000f;
+        public static final int g5=0x7f040010;
+        public static final int g6=0x7f040011;
+        public static final int g7=0x7f040012;
+        public static final int g8=0x7f040013;
     }
     public static final class string {
         public static final int app_name=0x7f060001;
