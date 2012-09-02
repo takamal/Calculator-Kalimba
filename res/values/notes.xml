@@ -2,22 +2,22 @@
 <resources>
 
     <integer-array name="notes">
-        <item >@raw/c5</item>
-        <item >@raw/d5</item>
-        <item >@raw/e5</item>
-        <item >@raw/g5</item>
         <item >@raw/a5</item>
-        <item >@raw/c6</item>
-        <item >@raw/d6</item>
-        <item >@raw/e6</item>
-        <item >@raw/g6</item>
-        <item >@raw/a6</item>
-		<item >@raw/c7</item>
-        <item >@raw/d7</item>
-        <item >@raw/e7</item>
-        <item >@raw/g7</item>
-        <item >@raw/a7</item>
-        <item >@raw/c8</item>
+        <item >@raw/o1</item>
+        <item >@raw/o2</item>
+        <item >@raw/o3</item>
+        <item >@raw/o4</item>
+        <item >@raw/o5</item>
+        <item >@raw/o6</item>
+        <item >@raw/o7</item>
+        <item >@raw/o8</item>
+        <item >@raw/o9</item>
+        <item >@raw/o10</item>
+		<item >@raw/o11</item>
+        <item >@raw/o12</item>
+        <item >@raw/o13</item>
+        <item >@raw/o14</item>
+        <item >@raw/o15</item>
     </integer-array><integer-array name="Keypads">
     	<item >@+id/Keypad0</item>
         <item >@+id/Keypad1</item>

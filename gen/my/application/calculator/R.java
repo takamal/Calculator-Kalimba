@@ -77,6 +77,21 @@ public final class R {
         public static final int g6=0x7f040011;
         public static final int g7=0x7f040012;
         public static final int g8=0x7f040013;
+        public static final int o1=0x7f040014;
+        public static final int o10=0x7f040015;
+        public static final int o11=0x7f040016;
+        public static final int o12=0x7f040017;
+        public static final int o13=0x7f040018;
+        public static final int o14=0x7f040019;
+        public static final int o15=0x7f04001a;
+        public static final int o2=0x7f04001b;
+        public static final int o3=0x7f04001c;
+        public static final int o4=0x7f04001d;
+        public static final int o5=0x7f04001e;
+        public static final int o6=0x7f04001f;
+        public static final int o7=0x7f040020;
+        public static final int o8=0x7f040021;
+        public static final int o9=0x7f040022;
     }
     public static final class string {
         public static final int app_name=0x7f060001;
