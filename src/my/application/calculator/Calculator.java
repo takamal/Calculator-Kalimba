@@ -59,8 +59,8 @@ public class Calculator extends Activity {
     public void clickSound(String strInKey){
     	Integer i = Integer.parseInt(strInKey);
     	
-    	mp[i-1].seekTo(0); 	//シークトウって曲のはじめを表すこと
-		mp[i-1].start();
+    	mp[i].seekTo(0); 	//シークトウって曲のはじめを表すこと
+		mp[i].start();
 		
     }
     

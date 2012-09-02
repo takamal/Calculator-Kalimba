@@ -19,6 +19,7 @@
         <item >@raw/a7</item>
         <item >@raw/c8</item>
     </integer-array><integer-array name="Keypads">
+    	<item >@+id/Keypad0</item>
         <item >@+id/Keypad1</item>
         <item >@+id/Keypad2</item>
         <item >@+id/Keypad3</item>
@@ -34,7 +35,6 @@
         <item >@+id/Keypad13</item>
         <item >@+id/Keypad14</item>
         <item >@+id/Keypad15</item>
-        <item >@+id/Keypad16</item>
     </integer-array>
     
     
