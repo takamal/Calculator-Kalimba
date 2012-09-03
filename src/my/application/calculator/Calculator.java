@@ -211,13 +211,13 @@ public class Calculator extends Activity {
     		    											//数字だけの場合スルー
     		    		}else{								//文字列＋ドットの場合
     		    			 aText = strDecimal.substring(1);	//文字列から頭のドットを取り除く
-    		    			 aText = (Integer.toHexString(Integer.parseInt(aText)));	//そして１６進数の変換
+    		    			 aText = (Long.toHexString(Long.parseLong(aText)));	//そして１６進数の変換
     		    			 aText = "." + aText;										//切り離したドットを再入する
     		    		}
     		    		
     		    	}
     		    	//-----------------------------------------------
-    		    	fText=(Integer.toHexString(Integer.parseInt(strInt))) + aText;
+    		    	fText=(Long.toHexString(Long.parseLong(strInt))) + aText;
     		    	
     	}else fText="0";
     	
